@@ -6,8 +6,8 @@
 <title>ChenjingBlog</title>
 
 <meta name="generator" content="Hugo Eureka 0.8.3" />
-<link rel="stylesheet" href="http://niading.github.io/css/eureka.min.css">
-<script defer src="http://niading.github.io/js/eureka.min.js"></script>
+<link rel="stylesheet" href="http://mickeyding.github.io/css/eureka.min.css">
+<script defer src="http://mickeyding.github.io/js/eureka.min.js"></script>
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload"
@@ -46,7 +46,7 @@
             "position":  1 ,
             "name": "位姿变换",
             "description": "位姿变换 ---丁晨静（dingchenjing@sensetime.com)\n各坐标系变换总结 \n旋转矩阵的变换 坐标系运动方向正负判定  坐标系运动方向判断：右手使用右手螺旋定则，左手使用左手螺旋定则，大拇指方向为坐标轴指向，四指指向为正\n 坐标系运动方向的正负和坐标点运动的方向相反\n  变换顺序 在右手坐标系中，是左结合，即最后一个矩阵最先应用\n静态坐标轴旋转和动态坐标轴旋转 如何从坐标系变换得到在初始坐标系下变换后的点的坐标？\n坐标系绕动态轴运算：每一次是按变换后的新的坐标系的轴运算，得到的角度取负再带入R矩阵求变换矩阵\n与坐标按初始坐标系固定轴旋转效果一致。\n变换实例 下面以cityscapes涉及的右手相机坐标系O1转换到右手标准相机坐标系O2为例：\n 首先绕O1 x轴 旋转-90°，得到坐标系M1（forward:x, left:z, down:y)；（相当于某点绕O1x轴旋转+90°） 再绕M1的y轴旋转+90°，得到坐标系O2；（相当于某点再绕M1y轴旋转-90°）  综上变换矩阵为 T = Ry(-90)Rx(90)\n\n# 向量绕固定轴旋转 R = euler_matrix(np.radians(90), np.radians(-90), 0, \u0026#39;sxyz\u0026#39;) x = np.array([[1,0,0,1]]) y = np.array([[0,1,0,1]]) z = np.array([[0,0,1,1]]) z_new = R @ x.T neg_x_new = R @ y.T neg_y_new = R @ z.T print(neg_x_new.T, neg_y_new.T, z_new.T) # x-\u0026gt;z; y-\u0026gt;neg_x, z-\u0026gt;neg_y \u0026#34;\u0026#34;\u0026#34; eg_x_new.",
-            "url": "http://niading.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/"
+            "url": "http://mickeyding.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/"
         }
     ]
 }
@@ -55,7 +55,7 @@
 
 
 
-<meta property="og:url" content="http://niading.github.io/posts/" />
+<meta property="og:url" content="http://mickeyding.github.io/posts/" />
 
 
 
@@ -84,7 +84,7 @@
 <meta property="article:section" content="posts" />
 
 
-<link rel="alternate" type="application/rss+xml" href="http://niading.github.io/posts/index.xml" title="ChenjingBlog" />
+<link rel="alternate" type="application/rss+xml" href="http://mickeyding.github.io/posts/index.xml" title="ChenjingBlog" />
 
 <body class="flex flex-col min-h-screen">
   <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
@@ -165,7 +165,7 @@
   
   <div class="w-full ">
     <div class="mb-4">
-  <a href="http://niading.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/" class="font-bold text-xl hover:text-eureka">位姿变换</a>
+  <a href="http://mickeyding.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/" class="font-bold text-xl hover:text-eureka">位姿变换</a>
 </div>
 <div class="content">
   

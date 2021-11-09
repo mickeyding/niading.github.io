@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ChenjingBlog</title>
-    <link>http://niading.github.io/posts/</link>
+    <link>http://mickeyding.github.io/posts/</link>
     <description>Recent content in Posts on ChenjingBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Nov 2021 17:44:28 +0800</lastBuildDate><atom:link href="http://niading.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 17:44:28 +0800</lastBuildDate><atom:link href="http://mickeyding.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>位姿变换</title>
-      <link>http://niading.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/</link>
+      <link>http://mickeyding.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/</link>
       <pubDate>Mon, 08 Nov 2021 17:44:28 +0800</pubDate>
       
-      <guid>http://niading.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/</guid>
+      <guid>http://mickeyding.github.io/posts/%E4%BD%8D%E5%A7%BF%E5%8F%98%E6%8D%A2/</guid>
       <description>位姿变换 ---丁晨静（dingchenjing@sensetime.com)
 各坐标系变换总结 
 旋转矩阵的变换 坐标系运动方向正负判定  坐标系运动方向判断：右手使用右手螺旋定则，左手使用左手螺旋定则，大拇指方向为坐标轴指向，四指指向为正
